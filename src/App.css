@@ -1,0 +1,189 @@
+.App {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 200 !important;
+}
+body {
+  background-color: #efefef;
+}
+header {
+  background-color: #FF385C;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+}
+header h1 {
+  color: #fff;
+}
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background: rgb(116, 111, 111);
+  padding-top: 8px;
+}
+footer p {
+  color: #ccc;
+}
+.card {
+  box-shadow: 0 2px 5px #ccc;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.btn-add {
+  color: #fff;
+  position: absolute;
+  right: -6px;
+  margin-top: -20px;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 1.4rem;
+}
+.btn-add:hover{
+  color: #fff;
+  font-weight: 700;
+}
+.btn-delete {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  border: none;
+  margin-top: -10px;
+  right: -5px;
+  font-size: 2.4rem;
+  padding: 0;
+  line-height: 0;
+}
+.btn-delete  i.fa.fa-trash-o {
+  font-size: 1.2rem;
+}
+hr {
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+.shadow-x{
+  box-shadow: none;
+}
+.shadow-x:hover, .shadow-x:focus, .shadow-sm:hover{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.error{
+  color: #721c24;
+  margin-top: -8px;
+  padding-left: 12px;
+}
+.special-nav{
+  height: 178px;
+  align-items: end;
+}
+.special-nav h1{
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;;
+}
+.push-up{
+  margin-top: -148px;
+}
+.img-container{
+  background: #000;
+  height: 180px;
+  overflow: hidden;
+}
+.img-container img{
+  width: 100%;
+  object-fit: contain;
+  margin-top: -10%;
+}
+.horizontal .img-container{
+  background: #000;
+  height: 165px;
+  overflow: hidden;
+}
+.horizontal .img-container img{
+  width: 100%;
+  object-fit: contain;
+  margin-top: 0%;
+}
+.navbar h1{
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.btn-add{
+  background-color: #FF385C;
+  border-color: #FF385C;
+}
+.btn-add:hover, .btn-add:not(:disabled):not(.disabled).active, .btn-add:active, .btn-add:focus, .btn-add:not(:disabled):not(.disabled):active, .show>.btn-add.dropdown-toggle{
+  background-color: #e0415e !important;
+  border-color: #FF385C;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #ccc;
+}
+.card-body span{
+  font-weight: 700;
+}
+.home .navbar{
+  background-color: #06060614;
+  box-shadow: none;
+}
+.jumbotron {
+  padding: 10rem 1rem 5rem;
+  margin-bottom: 2rem;
+  background-color: #000000;
+  margin-top: -45px;
+  color: #fff;
+  background-image: url("./bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.jumbotron p{
+  font-weight: 500;
+}
+.jumbotron .container{
+  background-color: #0000004a;
+  padding: 18px 12px;
+  text-align: center;
+}
+.air-btn, .air-btn:active, .air-btn:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+  background-color: #ffffff4d;
+  border-color: #f7f7f7 !important;
+}
+.air-btn:hover{
+  background-color: #FF385C;
+  border-color: #FF385C;
+}
+.main-title{
+  font-weight: bold;
+}
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+}
+.home .card-body{
+  min-height: 142px;
+}
+.card-body p{
+  line-height: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .btn-delete{
+    margin-top: -45px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .jumbotron {
+    padding: 5rem 1rem 4rem;
+  }
+ 
+}
