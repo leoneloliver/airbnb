@@ -19,10 +19,10 @@ export default function Modal() {
                 <h2 className="super-title mt-4 mb-4">Country Favourites</h2>
                 <div className="row">
 
-                    <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
+                    <div className="col-lg-6 col-md-6 mb-lg-4 mb-lg-0">
                         <img
                         src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                        className="w-100 shadow-1-strong rounded mb-4 super-cover"
+                        className="w-100 shadow-1-strong rounded mb-lg-4 mb-1 super-cover"
                         alt=""
                         />
                     </div>
@@ -64,6 +64,7 @@ export default function Modal() {
                 <div className="col-lg-12 col-md-6 mb-4 mb-lg-0 row">
                     <div className="col-lg-8 col-md-8">
                         <p className="super-desc">Description...</p>
+
                     </div>
                     <div className="col-lg-4 col-md-4">
                         
