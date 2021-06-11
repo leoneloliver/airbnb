@@ -63,9 +63,7 @@ export default function Modal() {
     
                 <div className="col-lg-12 col-md-6 mb-4 mb-lg-0 row">
                     <div className="col-lg-8 col-md-8">
-                        <h3 className="super-title">Country Favourites</h3>
                         <p className="super-desc">Description...</p>
-                        
                     </div>
                     <div className="col-lg-4 col-md-4">
                         
