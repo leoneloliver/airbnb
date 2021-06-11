@@ -9,7 +9,7 @@ function Hero() {
         <p className="lead">Find the best place to stay.</p>
         <hr className="my-4" />
         <p>Unique places to stay from local hosts in 190+ countruies.</p>
-        <Link to="/adm" className="btn btn-primary btn-lg air-btn" role="button">Add Houses</Link>
+        <Link to="/adm" className="btn btn-primary btn-lg air-btn" role="button">Manage Houses</Link>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -96,6 +97,9 @@ return (
             />
           );
         })}
+      </div>
+      <div className="text-center container btn-back-container mt-3 mb-5">
+        <Link to="/" className="btn btn-primary btn-lg air-btn">Back to Home</Link>
       </div>
     </div>
     {/* Notes list */}

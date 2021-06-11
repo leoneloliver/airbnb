@@ -57,6 +57,7 @@ return (
     {/* Notes list */}
     <div className="container mt-3">
       <div className="col-12 row m-0 p-0">
+        <h1 className="secound-title">Homes in <span className="air-title">your city</span></h1>
         <hr />
         {notes.map((noteItem, index) => {
           return (

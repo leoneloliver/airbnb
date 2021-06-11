@@ -248,8 +248,25 @@ span.logo-text {
   background-color: #d32f4d;
   border-color: #FF385C !important;
 }
+.btn-back-container .air-btn, .btn-back-container  .air-btn:active, .btn-back-container   .air-btn:focus, .btn-back-container  .btn-primary:not(:disabled):not(.disabled).active, .btn-back-container .btn-primary:not(:disabled):not(.disabled):active,.btn-back-container  .show>.btn-primary.dropdown-toggle{
+  background-color: #008489;
+  border-color: #008489 !important;
+}
 span.super-price {
   font-weight: normal;
+}
+.home hr{
+  margin: 0;
+  border: 0;
+}
+.air-title{
+  font-weight: bold;
+  color: #f13f5e;
+}
+.home h1.secound-title{
+  letter-spacing: -1px;
+  padding-left: 12px;
+  margin-bottom: 22px;
 }
 @media only screen and (max-width: 991px) {
   .h-m{
