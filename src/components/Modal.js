@@ -69,7 +69,7 @@ export default function Modal() {
                                 <p className="super-desc">Description...</p>
                             </div>
                             <div className="col-2">
-                                <img src={avatar} class="img-responsive avatar" alt="Owner" />
+                                <img src={avatar} className="img-responsive avatar" alt="Owner" />
                             </div>
                         </div>
                         
