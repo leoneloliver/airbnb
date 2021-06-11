@@ -292,6 +292,12 @@ span.super-price {
   .btn-delete{
     margin-top: -45px;
   }
+  .mobile-pushup{
+    margin-top: -20px;
+  }
+  .mobile-pr-0{
+    padding-right: 0;
+  }
 }
 @media only screen and (max-width: 550px) {
   .jumbotron {

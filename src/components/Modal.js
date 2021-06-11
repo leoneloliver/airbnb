@@ -62,7 +62,7 @@ export default function Modal() {
                     </div>
                 </div>
     
-                <div className="col-lg-12 col-md-6 mb-4 mb-lg-0 row">
+                <div className="col-lg-12 col-md-6 mb-4 mb-lg-0 row pr-0">
                     <div className="col-lg-8 col-md-8">
                         <div className="row col-12 p-0 mb-3">
                             <div className="col-10">
@@ -78,9 +78,9 @@ export default function Modal() {
                         </div>
 
                     </div>
-                    <div className="col-lg-4 col-md-4">
+                    <div className="col-lg-4 col-md-4 mobile-pr-0">
                         
-                        <div className="shadow p-4 ">
+                        <div className="shadow p-4 mobile-pushup">
                         <p>$ <span className="super-price"></span> per night</p>
                         <div className="btn btn-primary btn-lg air-btn btn-block" role="button">Check availability </div>
                         </div>
