@@ -6,7 +6,13 @@ function Header() {
     <header className="navbar navbar-dark">
       <div className="container">
         <h1>
-          <Link to="/"><i className="fa fa-heart-o fa-free-code-camp" aria-hidden="true"></i>&nbsp;heartbnb </Link>
+          <Link to="/">
+            <span>
+              <i className="fa fa-heart-o fa-free-code-camp" aria-hidden="true"></i>
+            </span>
+            <i className="circle-logo">o</i>
+            <span className="logo-text">airbnb</span> 
+          </Link>
         </h1>
       </div>
     </header>

@@ -3,7 +3,16 @@ import React from "react";
 const ListHome = (props) => {
  
   return (
-    <div className="col-md-4 p-2">
+    <div className="col-md-4 p-2"
+      onClick={() => 
+        props.showModal(
+          props.title,
+          props.content,
+          props.image,
+          props.price
+        )
+      }
+    >
       <div className="card shadow-sm">
         <div className="img-container">
           <img src={props.image} className="card-img-top" alt="..." />

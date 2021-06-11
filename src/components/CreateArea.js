@@ -41,7 +41,7 @@ function CreateArea(props) {
             className="form-control"
             type="text"
             name="title"
-            placeholder="Title"
+            placeholder="House Title"
             value={note.title}
             onChange={handleChange}
           />
@@ -52,7 +52,7 @@ function CreateArea(props) {
             className="form-control"
             type="text"
             name="image"
-            placeholder="Image URL"
+            placeholder="Image URL (http://...)"
             value={note.image}
             onChange={handleChange}
           />
@@ -63,7 +63,7 @@ function CreateArea(props) {
             className="form-control"
             type="text"
             name="price"
-            placeholder="Price per Night $"
+            placeholder="Price per Night (only number)"
             value={note.price}
             onChange={handleChange}
           />
@@ -71,7 +71,7 @@ function CreateArea(props) {
         <textarea
           className="form-control mt-2"
           name="content"
-          placeholder="Take a note..."
+          placeholder="Short description (3 guests · 2 bedrooms · 2 beds · 2 baths)"
           rows="3"
           value={note.content}
           onChange={handleChange}

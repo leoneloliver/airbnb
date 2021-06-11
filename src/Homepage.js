@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import ListHome from "./components/ListHome";
+import Modal from "./components/Modal";
 import data from "./notes";
 
 export default function Homepage() {
@@ -32,6 +33,22 @@ export default function Homepage() {
         localStorage.setItem('list', newList);
     }
 
+    const showModal = (title, content, image, price) => {
+      document.getElementsByClassName("info")[0].classList.remove("hide");
+      document.querySelector('body').classList.add('no-scroll');
+      document.querySelectorAll('.super-title')[0].innerHTML = title;
+      document.querySelectorAll('.super-desc')[0].innerHTML = content;
+      document.querySelectorAll('.super-cover')[0].src = image;
+      document.querySelectorAll('.super-cover')[1].src = image;
+      document.querySelectorAll('.super-cover')[2].src = image;
+      document.querySelectorAll('.super-cover')[3].src = image;
+      document.querySelectorAll('.super-cover')[4].src = image;
+      document.querySelectorAll('.super-price')[0].innerHTML = price;
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+    
+
 return (
   <div className="App pb-5 home">
     <Header />
@@ -50,7 +67,7 @@ return (
               content={noteItem.content}
               image={noteItem.image}
               price={noteItem.price}
-             
+              showModal={showModal}
             />
           );
         })}
@@ -58,6 +75,7 @@ return (
     </div>
     {/* Notes list */}
     <Footer />
+    <Modal />
   </div>
   );
 }

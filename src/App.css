@@ -176,6 +176,66 @@ hr {
 .card-body p{
   line-height: 18px;
 }
+i.fa.fa-heart-o.fa-free-code-camp {
+  transform: rotate(180deg);
+  margin-top: -1px !important;
+  position: absolute;
+}
+span.logo-text {
+  padding-left: 28px;
+}
+.circle-logo{
+  position: absolute;
+  margin-left: 7.8px;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  font: icon;
+}
+.hide{
+  display: none;
+}
+
+.info {
+  width: 100%;
+  position: absolute;
+  z-index: 9999999;
+  height: 100vh;
+  background: #fbfbfb;
+  top: 0;
+}
+.no-scroll{
+  overflow: hidden;
+  margin: 0;
+}
+.close {
+  text-align: right;
+  margin-right: 55px;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+.info-modal .navbar{
+  position: absolute;
+    top: 0;
+    z-index: 99999999;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 16px 0px;
+}
+.info-modal .navbar a {
+  text-decoration: none;
+  color: #FF385C;
+}
+.spacing-top{
+  margin-top: 6rem !important;
+}
+.info-modal .air-btn, .info-modal .air-btn:active, .info-modal  .air-btn:focus, .info-modal .btn-primary:not(:disabled):not(.disabled).active, .info-modal  .btn-primary:not(:disabled):not(.disabled):active,.info-modal  .show>.btn-primary.dropdown-toggle{
+  background-color: #FF385C;
+  border-color: #FF385C !important;
+}
+span.super-price {
+  font-weight: normal;
+}
 @media only screen and (max-width: 768px) {
   .btn-delete{
     margin-top: -45px;
