@@ -244,6 +244,10 @@ span.logo-text {
   background-color: #FF385C;
   border-color: #FF385C !important;
 }
+.info-modal .air-btn:hover {
+  background-color: #d32f4d;
+  border-color: #FF385C !important;
+}
 span.super-price {
   font-weight: normal;
 }
