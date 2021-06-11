@@ -30,6 +30,17 @@ footer p {
 h3 {
   font-size: 1.2rem;
 }
+.clickable{
+  cursor: pointer;
+}
+.clickable img{
+  transition: all .3s ease;
+  opacity: 0.8;
+}
+.clickable:hover img{
+  transition: all .3s ease;
+  opacity: 9.999999;
+}
 .btn-add {
   color: #fff;
   position: absolute;

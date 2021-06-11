@@ -3,7 +3,7 @@ import React from "react";
 const ListHome = (props) => {
  
   return (
-    <div className="col-md-4 p-2"
+    <div className="col-md-4 p-2 clickable"
       onClick={() => 
         props.showModal(
           props.title,
