@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import avatar from '../../src/avatar.webp'
 
 export default function Modal() {
 
@@ -63,7 +64,19 @@ export default function Modal() {
     
                 <div className="col-lg-12 col-md-6 mb-4 mb-lg-0 row">
                     <div className="col-lg-8 col-md-8">
-                        <p className="super-desc">Description...</p>
+                        <div className="row col-12 p-0 mb-3">
+                            <div className="col-10">
+                                <p className="super-desc">Description...</p>
+                            </div>
+                            <div className="col-2">
+                                <img src={avatar} class="img-responsive avatar" alt="Owner" />
+                            </div>
+                        </div>
+                        
+                        <div>
+                        Welcome to our house! This newly renovated house perfect for travelers include PRIVATE washroom and kitchen .
+                        It’s conveniently located in the heart of city and everything is within 10mins walking distance reach
+                        </div>
 
                     </div>
                     <div className="col-lg-4 col-md-4">
