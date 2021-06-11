@@ -74,8 +74,7 @@ export default function Modal() {
                         </div>
                         
                         <div className="h-m">
-                        Welcome to our house! This newly renovated house perfect for travelers include PRIVATE washroom and kitchen .
-                        It’s conveniently located in the heart of city and everything is within 10mins walking distance reach
+                            Welcome to our house! This newly renovated house perfect for travelers include PRIVATE washroom and kitchen.
                         </div>
 
                     </div>
