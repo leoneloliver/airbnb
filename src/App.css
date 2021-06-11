@@ -236,6 +236,17 @@ span.logo-text {
 span.super-price {
   font-weight: normal;
 }
+@media only screen and (max-width: 991px) {
+  .h-m{
+    display: none;
+  }
+  .info{
+    height: 300vh;
+  }
+  /* .no-scroll {
+    overflow: auto;
+  } */
+}
 @media only screen and (max-width: 768px) {
   .btn-delete{
     margin-top: -45px;

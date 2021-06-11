@@ -26,7 +26,7 @@ export default function Modal() {
                         alt=""
                         />
                     </div>
-                    <div className="col-lg-6 mb-4 mb-lg-0 row">
+                    <div className="col-lg-6 mb-4 mb-lg-0 row h-m">
                 
                         <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
                             <img
