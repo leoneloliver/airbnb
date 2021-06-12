@@ -38,11 +38,10 @@ export default function Homepage() {
       document.querySelector('body').classList.add('no-scroll');
       document.querySelectorAll('.super-title')[0].innerHTML = title;
       document.querySelectorAll('.super-desc')[0].innerHTML = content;
-      document.querySelectorAll('.super-cover')[0].src = image;
-      document.querySelectorAll('.super-cover')[1].src = image;
-      document.querySelectorAll('.super-cover')[2].src = image;
-      document.querySelectorAll('.super-cover')[3].src = image;
-      document.querySelectorAll('.super-cover')[4].src = image;
+      const totalImages = document.querySelectorAll('.super-cover').length;
+      for(let i = 0; i < totalImages; i++){
+        document.querySelectorAll('.super-cover')[i].src = image;
+      }
       document.querySelectorAll('.super-price')[0].innerHTML = price;
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;

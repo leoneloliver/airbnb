@@ -214,6 +214,7 @@ span.logo-text {
   height: 100vh;
   background: #fbfbfb;
   top: 0;
+  overflow-x: auto;
 }
 .no-scroll{
   overflow: hidden;
@@ -253,12 +254,19 @@ span.logo-text {
   background-color: #008489;
   border-color: #008489 !important;
 }
+.btn-back-container .air-btn:hover{
+  background-color: #0da7ad;
+}
 span.super-price {
   font-weight: normal;
 }
 .home hr{
   margin: 0;
   border: 0;
+}
+.home footer{
+    position: relative;
+    bottom: -60px;
 }
 .air-title{
   font-weight: bold;
@@ -281,12 +289,6 @@ span.super-price {
   .h-m{
     display: none;
   }
-  .info{
-    height: 300vh;
-  }
-  /* .no-scroll {
-    overflow: auto;
-  } */
 }
 @media only screen and (max-width: 768px) {
   .btn-delete{

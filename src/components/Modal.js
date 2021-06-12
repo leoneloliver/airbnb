@@ -10,9 +10,9 @@ export default function Modal() {
   };
 
   return (
-    <div className="info-modal info hide">
+    <div className="info-modal info hide pb-5" onClick={() => hideModal()}>
         <Header />
-        <div className="mt-5 spacing-top" onClick={() => hideModal()}>
+        <div className="mt-5 spacing-top">
     
             <div className="close"><i className="fa fa-times" aria-hidden="true"></i></div>
 
