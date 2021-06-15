@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: 'Questrial', sans-serif;
   font-weight: 200 !important;
 }
 body {
@@ -70,8 +70,11 @@ h3 {
   padding: 0;
   line-height: 0;
 }
-.btn-delete  i.fa.fa-trash-o {
+.btn-delete svg{
   font-size: 1.2rem;
+}
+h1 svg{
+  font-size: 2rem;
 }
 hr {
   border-top: 1px solid #ccc;
@@ -120,8 +123,11 @@ hr {
   object-fit: contain;
   margin-top: 0%;
 }
+.navbar{
+  padding: 0.7rem 1rem;
+}
 .navbar h1{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
   font-weight: bold;
 }
@@ -150,7 +156,7 @@ hr {
   padding: 10rem 1rem 5rem;
   margin-bottom: 2rem;
   background-color: #000000;
-  margin-top: -45px;
+  margin-top: -58px;
   color: #fff;
   background-image: url("./bg.jpeg");
   background-position: center;
@@ -194,7 +200,7 @@ i.fa.fa-heart-o.fa-free-code-camp {
   position: absolute;
 }
 span.logo-text {
-  padding-left: 28px;
+  padding-left: 6px;
 }
 .circle-logo{
   position: absolute;

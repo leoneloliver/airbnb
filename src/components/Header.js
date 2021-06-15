@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { FaAirbnb } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -8,9 +9,8 @@ function Header() {
         <h1>
           <Link to="/">
             <span>
-              <i className="fa fa-heart-o fa-free-code-camp" aria-hidden="true"></i>
+              <FaAirbnb/>
             </span>
-            <i className="circle-logo">o</i>
             <span className="logo-text">airbnb</span> 
           </Link>
         </h1>

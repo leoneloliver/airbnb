@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTrashAlt } from "react-icons/fa";
 
 const Note = (props) => {
   function handleClick() {
@@ -21,7 +22,7 @@ const Note = (props) => {
             onClick={handleClick}
             className="btn-delete shadow btn-danger"
           >
-            <i className="fa fa-trash-o" aria-hidden="true"></i>
+            <FaTrashAlt/>
           </button>
         </div>
       </div>

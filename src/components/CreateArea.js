@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaPlus } from "react-icons/fa";
 
 function CreateArea(props) {
   const [note, setNote] = useState({
@@ -77,7 +78,7 @@ function CreateArea(props) {
           onChange={handleChange}
         ></textarea>
         <button className="shadow btn-add btn btn-add" onClick={submitNote}>
-          <i className="fa fa-plus" aria-hidden="true"></i>
+          <FaPlus/>
         </button>
       </form>
     </div>
