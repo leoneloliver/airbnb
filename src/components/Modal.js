@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import { GrClose } from "react-icons/gr"
 import avatar from '../../src/avatar.webp'
 
 export default function Modal() {
@@ -14,7 +15,7 @@ export default function Modal() {
         <Header />
         <div className="mt-5 spacing-top">
     
-            <div className="close"><i className="fa fa-times" aria-hidden="true"></i></div>
+            <div className="close"><GrClose/></div>
 
             <div className="container">
                 <h2 className="super-title mt-4 mb-4">Country Favourites</h2>
