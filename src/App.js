@@ -40,15 +40,15 @@ export default function App() {
 
   function addNote(newNote) {
 
-  if (newNote.title !== "" && newNote.content !== "" && newNote.image !== "") {
-    setNotes((prevNotes) => {
-      // return [...prevNotes, newNote];
-      return [newNote, ...prevNotes];
-    });
-    setAlert(null);
-  }else{
-    showAlert();
-  }
+    if (newNote.title !== "" && newNote.content !== "" && newNote.image !== "") {
+      setNotes((prevNotes) => {
+        // return [...prevNotes, newNote];
+        return [newNote, ...prevNotes];
+      });
+      setAlert(null);
+    }else{
+      showAlert();
+    }
 }
 function deleteNote(id) {
   setNotes((prevNotes) => {
