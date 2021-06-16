@@ -7,10 +7,12 @@ const Search = (props) => {
         <div className="search-container">
             <input 
                 id="myInput" 
-                type="search" 
+                type="text" 
                 className="searchbar searchbox shadow-sm" 
                 placeholder="Search for houses..." 
                 onChange={props.searchFunc} 
+                onFocus={props.searchFunc} 
+                autoFocus={true}
             />
            <span className="search-icon">
              <BiSearch />
