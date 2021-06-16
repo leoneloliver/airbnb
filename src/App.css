@@ -307,7 +307,8 @@ span.super-price {
   margin-left: 30px;
 }
 span.search-icon {
-  background: #f1405d;
+  background: #ff385c;
+  cursor: pointer;
   color: #fff;
   padding: 8px;
   font-size: 1.5rem;
@@ -317,6 +318,9 @@ span.search-icon {
   position: absolute;
   width: 50px;
   height: 50px;
+}
+span.search-icon:hover{
+  background: #f1405d;
 }
 @media only screen and (max-width: 991px) {
   .h-m{
