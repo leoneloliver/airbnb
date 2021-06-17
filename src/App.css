@@ -352,6 +352,13 @@ span.search-icon:hover{
 .info-modal .user-container svg{
   color: #7b7b7b;
 }
+.saturation1{
+  filter: saturate(1); 
+}
+.saturation2{
+  filter: saturate(2); 
+}
+
 @media only screen and (max-width: 991px) {
   .h-m{
     display: none;

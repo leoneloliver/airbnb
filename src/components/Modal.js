@@ -40,14 +40,14 @@ export default function Modal() {
                             <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
                                 <img
                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                                className="w-100 shadow-1-strong rounded mb-4 super-cover"
+                                className="w-100 shadow-1-strong rounded mb-4 super-cover saturation1"
                                 alt=""
                                 />
                             </div>
                             <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
                                 <img
                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                                className="w-100 shadow-1-strong rounded mb-4 super-cover"
+                                className="w-100 shadow-1-strong rounded mb-4 super-cover saturation2"
                                 alt=""
                                 />
                             </div>
@@ -55,14 +55,14 @@ export default function Modal() {
                             <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
                                 <img
                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                                className="w-100 shadow-1-strong rounded mb-4 super-cover"
+                                className="w-100 shadow-1-strong rounded mb-4 super-cover saturation2"
                                 alt=""
                                 />
                             </div>
                             <div className="col-lg-6 col-md-6 mb-4 mb-lg-0">
                                 <img
                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                                className="w-100 shadow-1-strong rounded mb-4 super-cover"
+                                className="w-100 shadow-1-strong rounded mb-4 super-cover saturation1"
                                 alt=""
                                 />
                             </div>
