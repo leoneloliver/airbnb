@@ -9,10 +9,11 @@ const Search = (props) => {
                 id="myInput" 
                 type="text" 
                 className="searchbar searchbox shadow-sm" 
-                placeholder="Search for houses..." 
+                placeholder="Where are you going?" 
                 onChange={props.searchFunc} 
                 onFocus={props.searchFunc} 
                 autoFocus={true}
+                autoComplete="off"
             />
            <span className="search-icon">
              <BiSearch />
