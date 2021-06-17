@@ -45,6 +45,7 @@ function CreateArea(props) {
             placeholder="House Title"
             value={note.title}
             onChange={handleChange}
+            autoComplete="off"
           />
         </div>
         <div className="mt-2 mb-2">
@@ -56,6 +57,7 @@ function CreateArea(props) {
             placeholder="Image URL (http://...)"
             value={note.image}
             onChange={handleChange}
+            autoComplete="off"
           />
         </div>
         <div>
@@ -67,6 +69,7 @@ function CreateArea(props) {
             placeholder="Price per Night (only number)"
             value={note.price}
             onChange={handleChange}
+            autoComplete="off"
           />
         </div>
         <textarea
