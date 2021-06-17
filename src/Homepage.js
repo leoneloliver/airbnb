@@ -58,16 +58,11 @@ export default function Homepage() {
     document.documentElement.scrollTop = 0;
   };
     
-
 return (
   <div className="App pb-5 home">
     <Header/>
-
     <Search searchFunc={(e) => setSearch(e.target.value)} />
-    
     <Hero />
-
-  
     {/* Notes list */}
     <div className="container mt-3">
       <div className="col-12 row m-0 p-0">
