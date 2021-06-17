@@ -186,6 +186,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  border-radius: 0;
 }
 .jumbotron p{
   font-weight: 500;
@@ -330,6 +331,26 @@ span.search-icon {
 span.search-icon:hover{
   background: #cf1d3a;
   transition: all .3s ease;
+}
+.user-container{
+  background: #d8d8d84f;
+  width: 78px;
+  padding: 5px;
+  border-radius: 50px;
+  margin-top: -4px;
+  cursor: pointer;
+  text-align: center;
+}
+.user-container svg{
+  font-size: 1.7rem;
+  color: #dedede;
+}
+.info-modal .user-container{
+  border: 1px solid #bdbdbd;
+  background: transparent;
+}
+.info-modal .user-container svg{
+  color: #7b7b7b;
 }
 @media only screen and (max-width: 991px) {
   .h-m{

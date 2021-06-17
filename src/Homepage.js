@@ -61,7 +61,7 @@ export default function Homepage() {
 
 return (
   <div className="App pb-5 home">
-    <Header />
+    <Header/>
 
     <Search searchFunc={(e) => setSearch(e.target.value)} />
     
