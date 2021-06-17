@@ -122,6 +122,10 @@ hr {
   background: #000;
   height: 180px;
   overflow: hidden;
+  background: url(./no_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .img-container img{
   width: 100%;
@@ -132,6 +136,10 @@ hr {
   background: #000;
   height: 165px;
   overflow: hidden;
+  background: url(./no_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .horizontal .img-container img{
   width: 100%;
