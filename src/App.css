@@ -223,7 +223,8 @@ hr {
 }
 .main-title{
   font-weight: bold;
-  text-shadow: 1px 1px 8px #989898;
+  /* text-shadow: 1px 1px 8px #989898; */
+  color: #616161;
 }
 .navbar a{
   text-decoration: none;
