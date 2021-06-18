@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="display-4 main-title">WELCOME HOME</h1>
         <p className="lead">Find the best place to stay.</p>
         <hr className="my-4" />
-        <Link to="/adm" className="btn btn-primary btn-lg air-btn" role="button">Manage Houses</Link>
+        <Link to="/adm" className="btn btn-primary btn-lg air-btn shadow-sm" role="button">Manage Houses</Link>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ const Search = (props) => {
             <input 
                 id="myInput" 
                 type="text" 
-                className="searchbar searchbox shadow-sm" 
+                className="searchbar searchbox shadow" 
                 placeholder="Where are you going?" 
                 onChange={props.searchFunc} 
                 onFocus={props.searchFunc} 

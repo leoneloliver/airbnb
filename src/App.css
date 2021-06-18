@@ -24,7 +24,7 @@ header h1 {
 .searchbox{
   padding: 15px 24px;
   border-radius: 50px;
-  border: 1px solid #ccc;
+  border: 1px solid #f1f1f1;
   width: 550px;
 }
 footer {
@@ -184,8 +184,9 @@ hr {
   font-weight: 700;
 }
 .home .navbar{
-  background-color: #06060614;
+  background-color: rgb(156 156 156 / 0%);
   box-shadow: none;
+  background-image: linear-gradient(to bottom,rgb(47 47 47), rgb(247 247 247 / 0%));
 }
 .jumbotron {
   padding: 11rem 1rem 5rem;
@@ -193,24 +194,28 @@ hr {
   background-color: #000000;
   margin-top: -58px;
   color: #fff;
-  background-image: url("./bg.jpeg");
+  background-image: url("./air-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   border-radius: 0;
+  background-position: bottom;
 }
 .jumbotron p{
   font-weight: 500;
+  color: #676767;
 }
 .jumbotron .container{
-  background-color: #0000004a;
   padding: 18px 12px;
   text-align: center;
 }
 .air-btn, .air-btn:active, .air-btn:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
-  background-color: #ffffff4d;
-  border-color: #f7f7f7 !important;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  color: #737373;
+  border-radius: 50px;
+  padding: 13px 25px;
 }
 .air-btn:hover{
   background-color: #FF385C;
@@ -218,7 +223,7 @@ hr {
 }
 .main-title{
   font-weight: bold;
-  text-shadow: 1px 1px 3px #424242;
+  text-shadow: 1px 1px 8px #989898;
 }
 .navbar a{
   text-decoration: none;
@@ -295,6 +300,7 @@ span.logo-text {
 .btn-back-container .air-btn, .btn-back-container  .air-btn:active, .btn-back-container   .air-btn:focus, .btn-back-container  .btn-primary:not(:disabled):not(.disabled).active, .btn-back-container .btn-primary:not(:disabled):not(.disabled):active,.btn-back-container  .show>.btn-primary.dropdown-toggle{
   background-color: #008489;
   border-color: #008489 !important;
+  color: #fff;
 }
 .btn-back-container .air-btn:hover{
   background-color: #0da7ad;
