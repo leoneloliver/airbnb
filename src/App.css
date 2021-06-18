@@ -292,6 +292,7 @@ span.logo-text {
 .info-modal .air-btn, .info-modal .air-btn:active, .info-modal  .air-btn:focus, .info-modal .btn-primary:not(:disabled):not(.disabled).active, .info-modal  .btn-primary:not(:disabled):not(.disabled):active,.info-modal  .show>.btn-primary.dropdown-toggle{
   background-color: #FF385C;
   border-color: #FF385C !important;
+  color: #fff;
 }
 .info-modal .air-btn:hover {
   background-color: #d32f4d;
