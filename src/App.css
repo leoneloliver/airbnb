@@ -387,6 +387,9 @@ span.search-icon:hover{
 
 
 @media only screen and (min-width : 960px) {
+  body.fixed-nav {
+    margin-top: -65px;
+  }
   .stiky-nav{
     background-color: #fffffff7 !important;
     position: sticky;

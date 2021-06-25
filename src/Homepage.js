@@ -61,16 +61,19 @@ export default function Homepage() {
   const scrollingEvent = () => {
     const myNav = document.getElementById('nav-home');
     const searchContainer = document.getElementsByClassName('search-container')[0];
+    const body = document.getElementsByTagName("body")[0];
     const topDistance = 400;
     window.onscroll = function () { 
         // "use strict";
         if (document.body.scrollTop >= topDistance || document.documentElement.scrollTop >= topDistance ) {
             myNav.classList.add("stiky-nav");
             searchContainer.classList.add('stiky-search');
+            body.classList.add('fixed-nav');
         } 
         else {
             myNav.classList.remove("stiky-nav");
             searchContainer.classList.remove('stiky-search');
+            body.classList.remove('fixed-nav');
         }
     };
   }
