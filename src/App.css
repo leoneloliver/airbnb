@@ -385,6 +385,41 @@ span.search-icon:hover{
   filter: saturate(2); 
 }
 
+
+@media only screen and (min-width : 960px) {
+  .stiky-nav{
+    background-color: #fffffff7 !important;
+    position: sticky;
+    top: 0;
+    background-image: none !important;
+    z-index: 9;
+    transition: all .3s ease;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    height: 68px;
+  }
+  .stiky-nav a{
+    color: #ff385c;
+  }
+  .stiky-nav .user-container svg {
+    color: #949494;
+  }
+  .stiky-search{
+    position: sticky;
+    top: 5px;
+    padding-top: 0;
+    z-index: 99;
+    width: 400px;
+    margin: 0 auto;
+    /* transition: all .3s ease; */
+  }
+  .stiky-search input{ 
+    width: 100%;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 991px) {
   .h-m{
     display: none;

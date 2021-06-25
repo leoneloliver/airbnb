@@ -5,7 +5,7 @@ import { IoIosMenu } from 'react-icons/io';
 
 function Header() {
   return (
-    <header className="navbar navbar-dark">
+    <header className="navbar navbar-dark" id="nav-home">
       <div className="container">
         <h1>
           <Link to="/">
