@@ -20,6 +20,8 @@ export default function App() {
   } 
   //etra
 
+  goToTop();
+
   const [alert, setAlert] = useState(null);
   const [notes, setNotes] = useState(listItem);
 
@@ -69,6 +71,11 @@ function updateStorage(newList){
 function showAlert() {  
   setAlert(true);
   setTimeout(() => setAlert(null),3000);
+}
+
+function goToTop() {
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
 }
 
 return (
