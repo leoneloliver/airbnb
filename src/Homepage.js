@@ -78,6 +78,7 @@ export default function Homepage() {
     };
   }
 
+
   scrollingEvent();
     
 return (
@@ -89,7 +90,7 @@ return (
     <div className="container mt-3">
       <div className="col-12 row m-0 p-0">
         <h1 className="secound-title">Homes in <span className="air-title">your city</span></h1>
-        <hr />
+        <hr id="divisor"/>
         {filteredNotes.map((noteItem, index) => {
           return (
             <ListHome
