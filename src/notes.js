@@ -31,7 +31,7 @@ const notes = [
       key: 5,
       title: "Modern House impressive - Ottawa",
       content: "5 guests · 3 bedroom · 3 bed · 2 bath",
-      image: "https://bacojj.files.wordpress.com/2019/02/house-interior-design-ideas-albert-lynch-beautiful-small-interiors-beautiful-houses-interior-design-designs-medium-size-modern-nice-houses-white-wall-impressive.jpg",
+      image: "https://cdn.decoratorist.com/wp-content/uploads/marble-wood-modernity-refined-house-addition-ottawa-221815.jpg",
       price: "198.00"
     },
     {
