@@ -45,14 +45,14 @@ const notes = [
       key: 6,
       title: "Amazin House - Ottawa",
       content: "6 guests · 3 bedroom · 2 bed · 1 bath",
-      image: "https://www.lgc.org/wordpress/wp-content/uploads/2016/12/Housing.jpg",
+      image: "https://www.cardelhomes.com/wp-content/uploads/2020/03/cardel-homes-ottawa-blackstone-devonshire-model-home-02.jpg",
       price: "190.00"
     },
     {
       key: 7,
       title: "Luxury House - Toronto",
       content: "12 guests · 6 bedroom · 12 bed · 4 bath",
-      image: "https://thumbnails.expedia.com/tZ50PEALDk1thxrJjs3W0b4wUwY=/500x333/smart/filters:quality(60)/exp.cdn-hotels.com/hotels/18000000/17480000/17479800/17479797/83c77635_y.jpg",
+      image: "http://d2kcmk0r62r1qk.cloudfront.net/imageSponsors/xlarge/2021_02_03_06_53_54_lot1-final-rev2-scaled.jpg",
       price: "390.00"
     },
     {
