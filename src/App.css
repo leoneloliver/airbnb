@@ -385,6 +385,11 @@ span.search-icon:hover{
   filter: saturate(2); 
 }
 
+.container.center.cta {
+  text-align: center;
+  margin-top: 65px;
+}
+
 
 @media only screen and (min-width : 960px) {
   body.fixed-nav {

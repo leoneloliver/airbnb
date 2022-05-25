@@ -107,6 +107,11 @@ return (
       </div>
     </div>
     {/* Notes list */}
+   
+    <div className="container center cta">
+      <a href="https://clonebnb-experience.vercel.app/" className="btn btn-primary btn-lg air-btn shadow-sm" role="button">airbnb experience</a>
+    </div>
+  
     <Footer />
     <Modal />
   </div>
