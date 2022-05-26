@@ -13,7 +13,7 @@ export default function Homepage() {
   // extra
   let listItem = data;
   const storageTodos = getStorage();
-  if(storageTodos===null){
+  if(storageTodos === null || storageTodos.length === 0){
       updateStorage(JSON.stringify(listItem));
   }else{
       listItem = getStorage();
