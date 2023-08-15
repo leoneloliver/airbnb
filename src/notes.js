@@ -31,7 +31,7 @@ const notes = [
       key: 5,
       title: "Modern House impressive - Ottawa",
       content: "5 guests · 3 bedroom · 3 bed · 2 bath",
-      image: "https://cdn.decoratorist.com/wp-content/uploads/marble-wood-modernity-refined-house-addition-ottawa-221815.jpg",
+      image: "https://photos.zolo.ca/164-bristol-crescent-ottawa-1354563-1.jpg",
       price: "198.00"
     },
     {
